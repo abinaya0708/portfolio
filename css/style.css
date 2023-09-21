@@ -1,0 +1,124 @@
+*{
+	margin:0;
+	padding:0;
+	box-sizing:border-box;
+}
+/*.container{
+	width:80%;
+	margin:auto;
+}*//*portfolio-section*/
+#portfolio-section{
+	z-index:1;
+}
+
+.portfolio-title{
+	position:relative;
+	text-align:center;
+}
+.portfolio-title p{
+	font-family: 'Open Sans', sans-serif;
+	padding:30px 0;
+	font-size:15px;
+}
+.portfolio-background h1{
+	
+	/* font-size:55px; */
+	color:#f4f4f4;
+	opacity:0.7;
+	font-family: 'Open Sans', sans-serif;
+	font-weight:700;
+}
+.portfolioo h1{
+	position:absolute;
+	/* top:30%; */
+	/* left:38%; */
+	/* font-size:40px; */
+	font-family: 'Raleway', sans-serif;
+	font-weight:600;
+	
+	color:#000;
+	
+}
+.filter{
+	text-align:center;
+	/* padding:20px 0; */
+	/* width:50%; */
+	margin:auto;
+	}
+.filter-normal{
+	text-decoration:none;
+	color:rgb(0,0,0);
+	padding:0 10px;
+	font-family: 'Poppins', sans-serif;
+	font-weight:200;
+}
+.filter-change{
+	color:#cc1616;
+	text-decoration:none;
+	padding:0 10px;
+	font-family: 'Poppins', sans-serif;
+	font-weight:200;
+}
+.filter-normal:hover{
+	color:#cc1616;
+	transition: all 0.2s linear;
+}
+.gallery-row{
+	display:flex;
+}
+.gallery-col{
+	/* width:33.33%; */
+	padding:10px;
+}
+.gallery-card{
+	padding:10px 0;
+	position:relative;
+}
+.gallery-card img{
+	width:100%;
+}
+.gallery-content{
+	display:flex;
+	justify-content:space-between;
+	align-items:center;
+	
+	position:absolute;
+	bottom:5%;
+	left:5%;
+	
+	border:2px solid #fff;
+	background-color:#fff;
+	width:90%;
+	opacity:0.8;
+	padding:20px;
+		
+	visibility:hidden;	
+}
+.gallery-card:hover .gallery-content{
+	visibility:visible;
+	transition:all 0.5s linear;
+
+	
+	position:absolute;
+	bottom:10%;
+	left:5%;
+}
+.gallery-content h2{
+	font-family:'Raleway', sans-serif;
+	font-size:18px;
+	font-weight:600;
+}
+.gallery-content p{
+	font-family:'Raleway', sans-serif;
+	font-size:14px;
+	font-weight:600;
+}
+.gallery-icon i{
+	font-size:20px;
+	font-family:'Open Sans', sans-serif;
+	font-weight:600;
+	padding-right:5px;
+}
+.gallery-icon i:hover{
+	color:#cc1616;
+}
